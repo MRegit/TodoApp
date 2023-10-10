@@ -4,6 +4,7 @@ $select_height: 40px;
 .selectContainer {
     position: relative;
     display: flex;
+    flex: 30%;
     flex-direction: column;
     cursor: pointer;
     width: 100%;
@@ -35,10 +36,9 @@ $select_height: 40px;
     }
 
     .options {
-        position: fixed;
+        position: sticky;
         display: flex;
         flex-direction: column;
-        margin-top: $select_height;
         width: $select_width;
         max-height: 200px;
         overflow-y: auto;

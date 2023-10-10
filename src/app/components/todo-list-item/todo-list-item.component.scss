@@ -8,6 +8,7 @@
     color: #dadada;
     line-height: 24px;
 
+
     .top {
         display: flex;
         justify-content: space-between;
@@ -44,9 +45,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        span {
+        .content{
+            white-space: normal; /* Permite que el texto se divida en varias líneas si es necesario */
             font-size: 14px;
         }
+        
     }
 }
