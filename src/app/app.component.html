@@ -1,0 +1,18 @@
+
+<div class="container">
+  <div class="title">
+    <img src="../assets/angularIcon.svg" alt="Logo de la App de Tareas" />
+    <h1>pp de Tareas</h1>
+  </div>
+
+
+  <app-todo-form />
+
+  <div class="filters">
+    <h2>Filtros</h2>
+    <app-todo-filters />
+    <app-todo-orders />
+  </div>
+
+  <app-todo-list class="todo-list" [todoList]="todos" />
+</div>
